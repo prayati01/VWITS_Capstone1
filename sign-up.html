@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <style>
+        input{
+            margin: 5px;
+            
+        }           
+    </style>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1 style="text-align: center;">The Mega Cart</h1>
+    <form style="text-align: center;">
+
+        <label for="username"> Enter Username: </label>
+        <input type="text" id="username" name="username" minlength="6" maxlength="10" required/>
+        <br/>
+
+        <label for="Email">Enter Email Id: </label>
+        <input type="email" id="Email" name="email" />
+        <br/>
+
+        <label for="numb">Enter Mobile: </label>
+        <input type="text" id="numb" name="number" max="10" />
+        <br/>
+
+        <label for="pass">Enter Password: </label>
+        <input type="password" id="pass" name="password" required />
+        <br/>
+
+        <label for="cpass">Confirm Password: </label>
+        <input type="password" id="cpass" name="password" required/>
+        <br/>
+        <input type="submit" value=SignUp />
+        <br/>
+
+    </form>
+</body>
+</html>
